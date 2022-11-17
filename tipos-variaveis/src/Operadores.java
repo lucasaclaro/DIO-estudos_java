@@ -38,6 +38,22 @@ public class Operadores {
 
 
 
+    boolean condicao1 = true;
+    boolean condicao2 = false;
+
+    if (condicao1 && condicao2) {
+        System.out.println("True");
+    } else {
+        System.out.println("False");
+    } // && = e
+
+    if (condicao1 || condicao2) {
+        System.out.println("True");
+    } else {
+        System.out.println("False");
+    } // || = ou
+
+
 
     }
 }
